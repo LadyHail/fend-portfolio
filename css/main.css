@@ -1,0 +1,86 @@
+/* General */
+body {
+  font-family: Raleway;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+/* Flexboxes */
+main, .header_content, .container_projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Images size set */
+.main_image {
+  height: 119.9%;
+}
+.header_image {
+  width: 15%;
+  height: 17.7%;
+}
+
+/* Header */
+.person_name {
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.role {
+  font-weight: 100;
+}
+.header_info {
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 1em;
+  width: 85%;
+}
+.header_separator {
+  background-color: #7d97ad;
+  height: 2px;
+  width: 100%;
+  border-style: groove;
+  border-radius: 1px;
+}
+
+/* Projects section */
+.title {
+  color: #808080;
+  letter-spacing: 3px;
+  font-size: 2em;
+  padding-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+.project {
+  text-align: center;
+}
+.project_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2em;
+}
+.project_link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Colored blocks */
+.box {
+  line-height: 1em;
+  font-size: 1.5em;
+  color: #808080;
+}
+.box1, .box2, .box3 {
+  width: 3.5em;
+  height: 3.5em;
+}
+.box1 {
+  background-color: #02b3e4;
+}
+.box2 {
+  background-color: #2d3c49;
+}
+.box3 {
+  background-color: #7d97ad;
+}

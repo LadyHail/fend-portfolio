@@ -1,0 +1,53 @@
+/* General */
+body {
+  width: 100%;
+  font-size: 14px;
+  margin: 0;
+}
+aside {
+  width: 25%;
+  order: 10;
+  margin-top: 3em;
+}
+
+/* Flexboxes */
+.header_content, .main_image {
+  width: 100%;
+}
+.main_projects {
+  width: 75%;
+}
+
+/* Header */
+.person_name {
+  font-size: 3em;
+}
+.role {
+  font-size: 2em;
+}
+
+/* Projects section */
+.project {
+  width: 100%;
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+.project_title {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.project_image {
+  width: 70%
+}
+.project_link {
+  font-size: 1.3em;
+}
+
+/* Colored blocks */
+.box {
+  text-align: left;
+  padding-bottom: 1em;
+}
+.box1, .box2, .box3 {
+  margin-right: auto;
+}

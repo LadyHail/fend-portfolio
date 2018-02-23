@@ -1,0 +1,48 @@
+/* General */
+body {
+  width: 960px;
+  margin: auto;
+  font-size: 14px;
+}
+aside {
+  width: 20%;
+}
+
+/* Flexboxes */
+.header_content, .main_image, .main_projects {
+  width: 80%;
+}
+.header_content, .main_projects {
+  margin-left: 20%;
+}
+
+/* Header */
+.person_name {
+  font-size: 2.5em;
+}
+
+/* Projects section */
+.project {
+  width: 32.33333%;
+  line-height: 0.1em;
+}
+.spacing {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.project_image {
+  width: 100%
+}
+.project_link {
+  font-size: 0.85em;
+}
+
+/* Colored blocks */
+.box {
+  text-align: right;
+  padding-bottom: 1.5em;
+  margin-right: 20%;
+}
+.box1, .box2, .box3 {
+  margin-left: auto;
+}
